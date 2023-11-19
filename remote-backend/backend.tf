@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-suven-weekend12"
+    bucket = "s3-oct-weekend"
     key    = "network/terraform.tfstate"
     region = "ap-south-1"
     #access_key = "AKIAY5P26JJ7BNEXKUHT"
